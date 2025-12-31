@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midnight Confetti Countdown</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <canvas id="confetti-canvas"></canvas>
+  
+  <div class="container">
+    <h1>🎉 Midnight Countdown 🎉</h1>
+    
+    <div class="current-time" id="currentTime"></div>
+    
+    <div class="countdown-title">Time until midnight:</div>
+    
+    <div class="countdown">
+      <div class="countdown-item">
+        <div class="countdown-value hours" id="hours">00</div>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-item">
+        <div class="countdown-value minutes" id="minutes">00</div>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-item">
+        <div class="countdown-value seconds" id="seconds">00</div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+    
+    <div class="midnight-message" id="midnightMessage">🎊 HAPPY NEW DAY! 🎊</div>
+    <div class="fireworks-title" id="fireworksTitle">🎆 FIREWORKS! 🎆</div>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
