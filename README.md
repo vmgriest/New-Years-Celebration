@@ -1,4 +1,4 @@
-A web application that counts down to midnight and launches a spectacular confetti celebration when the clock strikes 12:00 AM
+A web application that counts down to New Years and launches a spectacular confetti celebration when the clock strikes 12:00 AM
 
 **Features**
 Live Countdown Timer: Real-time countdown showing hours, minutes, and seconds until midnight
@@ -13,11 +13,11 @@ Multiple Confetti Effects:
 Simply open the index.html file in any modern web browser
 The page will immediately show:
 Current time
-Countdown to midnight (in hours, minutes, seconds)
+Countdown to New Years (in hours, minutes, seconds)
 At midnight (12:00 AM), the celebration begins automatically:
       Celebration messages appear
       Confetti fireworks launch continuously for 30 seconds
       Special animations activate
 Keep this tab open overnight to get a surprise celebration at midnight! 🎊
 
-Used Canvas Confetti Library - Beautiful confetti animations
+Used Canvas Confetti Library - Confetti animations
