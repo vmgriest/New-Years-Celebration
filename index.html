@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Midnight Confetti Countdown</title>
+  <title>New Years Confetti Countdown</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
@@ -11,15 +11,25 @@
   <canvas id="confetti-canvas"></canvas>
   
   <div class="container">
-    <h1>🎉 Midnight Countdown 🎉</h1>
+    <h1>🎉 New Years Countdown 🎉</h1>
     
     <div class="current-time" id="currentTime"></div>
     
-    <div class="countdown-title">Time until midnight:</div>
+    <div class="year-display">
+      <div class="current-year">
+        <span class="year-label">Current Year:</span>
+        <span class="year-value" id="currentYear"></span>
+      </div>
+      <div class="arrow">→</div>
+      <div class="next-year">
+        <span class="year-label">Counting to:</span>
+        <span class="year-value" id="nextYear"></span>
+      </div>
+    </div>
     
     <div class="countdown">
       <div class="countdown-item">
-        <div class="countdown-value hours" id="hours">00</div>
+        <div class="countdown-value hours" id="hours">0000</div>
         <div class="countdown-label">Hours</div>
       </div>
       <div class="countdown-item">
@@ -32,9 +42,9 @@
       </div>
     </div>
     
-    <div class="midnight-message" id="midnightMessage">🎊 HAPPY NEW DAY! 🎊</div>
-    <div class="fireworks-title" id="fireworksTitle">🎆 FIREWORKS! 🎆</div>
+    <div class="midnight-message" id="midnightMessage">🎊 HAPPY NEW YEAR! 🎊</div>
   </div>
-    <script src="index.js"></script>
+  
+  <script src="index.js"></script>
 </body>
 </html>
